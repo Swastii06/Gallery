@@ -1,0 +1,418 @@
+body{
+    border-top: 10px cyan solid;
+    border-bottom: 10px cyan solid;
+    border-left: 10px cyan solid;
+    border-right: 10px cyan solid;
+    padding: 20px;
+    background-color: black;
+}
+h1{
+    color: cyan;
+    font-size: 30px;
+    font-family: inherit;
+    text-align: center;
+    box-shadow: 0 0 5px cyan,
+    0 0 25PX cyan; 
+}
+H1:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+.akbar{
+    color: yellow;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.akbar{
+    display: inline-block;
+    position: relative;
+    color: yellow
+  }
+  
+  .akbar::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .akbar:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.img1{
+    float: left;
+    height: 300px;
+    width: 300px;
+transition: 1s;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.about1{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.padmavati{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right; 
+}
+.padmavati{
+    display: block;
+    width: 260px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+  .padmavati::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .padmavati:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.about2{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.img2{
+    float: right;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+.chandra{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.chandra{
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.chandra {
+    display: inline-block;
+    position: relative;
+    color: yellow
+  }
+  
+  .chandra::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .chandra:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.about3{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.img3{
+    float: left;
+    height: 300px;
+    width: 300px;
+    transition: 1s; 
+}
+.img3:hover{
+    transform: scale(1.2);
+}
+.pratap{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;   
+}
+.pratap{
+    display: block;
+    width: 310px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+  .pratap::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .pratap:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.about4{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.img4{
+    float: right;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+.img4:hover{
+    transform: scale(1.2);
+}
+.ashoka{
+    color: yellow;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.ashoka{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.ashoka {
+    display: inline-block;
+    position: relative;
+    color: yellow
+  }
+  
+  .ashoka::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .ashoka:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.about5{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.img5{
+    float: left;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+.img5:hover{
+    transform: scale(1.2);
+}
+.jhansi{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.jhansi{
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+  .jhansi::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .jhansi:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.about6{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.img6{
+    float: right;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+.img6:hover{
+    transform: scale(1.2);
+}
+.shivaji{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.shivaji{
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.shivaji{
+    display: inline-block;
+    position: relative;
+    color: yellow
+  }
+  
+  .shivaji::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .shivaji:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.about7{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.img7{
+    float: left;
+    height: 300px;
+    width: 300px; 
+    transition: 1s;
+}
+.img7:hover{
+    transform: scale(1.2);
+}
+.tipu{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.tipu{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+  .tipu::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:yellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .tipu:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.about8{
+    font-size: 20px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right ; 
+}
+.img8{
+    float: right;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+.img8:hover{
+    transform: scale(1.2);
+}
+.container{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 70px;
+}
+@media screen and(max-width:650px) {
+    .container{grid-template-columns: repeat(1,1fr);}
+}
